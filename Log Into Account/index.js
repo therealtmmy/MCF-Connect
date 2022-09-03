@@ -1,0 +1,1 @@
+alert ('Welcome to the Official Website of The Methodist Campus Fellowship, Adekunle Ajasin University, Akungba Akoko. You are welcome.');
