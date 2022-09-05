@@ -1,0 +1,247 @@
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 900;
+    margin-bottom: 0%;
+}
+
+h2 {
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 0%;
+    margin-top: -80px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h1 + p {
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(174, 174, 174);
+}
+
+
+
+h2 + p {
+    font-size: 17px;
+    color: rgb(137, 135, 135);
+}
+
+a {
+    text-decoration: none;
+    color: red;
+
+}
+
+label {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(56, 56, 56, 0.8);
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    margin: -8px;
+}
+
+.img {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 60%;
+
+}
+
+.immg {
+    margin-top: 150px;
+}
+
+.money {
+    line-height: 50px;
+     display: flex;
+   flex-direction: column;
+  margin: auto;
+  height: 100vh;
+   margin-top: 150px;
+  width: 30%;
+
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+}
+
+input {
+    border: 1px solid rgba(56, 56, 56, 0.1);
+}
+
+input, button {
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    width: 100%;
+}
+
+button {
+    border-radius: 2rem;
+    border: none;
+    color:white;
+    background-color:rgb(255, 94, 94);
+    font-weight: 700;
+    height: 20%;
+    cursor: pointer;
+}
+
+button:hover {
+    background:rgba(255, 94, 94, 0.9);
+}
+
+.login {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .main {
+        display: flex;
+        height: 10vh;
+        margin: -8px;
+    }
+
+    .img {
+        display: none;
+    
+    }
+    
+    label {
+        font-weight: 600;
+        font-size: 20px;
+        color: rgba(56, 56, 56, 0.8);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-content: center;
+     }
+    
+    .money {
+        padding: 30px;
+        line-height: 50px;
+         display: flex;
+         justify-content: center;
+       flex-direction: column;
+       align-content: center;
+       justify-self: center;
+       margin: auto;
+       width: 406px;
+    }
+    
+    input {
+        border: 1px solid rgba(56, 56, 56, 0.1);
+    }
+    
+    input, button {
+        height: 40px;
+        padding: 10px;
+        font-size: 15px;
+        outline: none;
+        width: 100%;
+    }
+    
+    button {
+        border-radius: 2rem;
+        border: none;
+        color:white;
+        background-color:rgb(255, 94, 94);
+        font-weight: 700;
+        height: 20%;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background:rgba(255, 94, 94, 0.9);
+    }
+    
+    .login {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        display: flex;
+        height: 10vh;
+        margin: -8px;
+    }
+
+    .img {
+        display: none;
+    
+    }
+    
+    label {
+        font-weight: 600;
+        font-size: 20px;
+        color: rgba(56, 56, 56, 0.8);
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-content: center;
+     }
+    
+    .money {
+        padding: 30px;
+        line-height: 50px;
+         display: flex;
+         justify-content: center;
+       flex-direction: column;
+       align-content: center;
+       justify-self: center;
+       margin: auto;
+       width: 406px;
+    }
+    
+    input {
+        border: 1px solid rgba(56, 56, 56, 0.1);
+    }
+    
+    input, button {
+        height: 40px;
+        padding: 10px;
+        font-size: 15px;
+        outline: none;
+        width: 100%;
+    }
+    
+    button {
+        border-radius: 2rem;
+        border: none;
+        color:white;
+        background-color:rgb(255, 94, 94);
+        font-weight: 700;
+        height: 20%;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background:rgba(255, 94, 94, 0.9);
+    }
+    
+    .login {
+        text-align: center;
+        font-size: 18px;
+    }
+}
